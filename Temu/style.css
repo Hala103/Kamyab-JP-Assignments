@@ -1,0 +1,434 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar {
+    background-color: rgb(236, 163, 5);
+    color: white;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    font-size: 13px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.navbar1 img {
+    width: 40px;
+    height: 40px;
+    margin: 1px 10px 5px 50px;
+}
+.navbar2 {
+    display: flex;
+    justify-content: space-around;
+    width: 450px;
+    margin: 15px 10px 5px 20px;
+}
+.navbar3 {
+    margin: 4px 10px 5px 20px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 30px;
+    background: transparent;
+}
+.navbar3 input {
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    cursor: pointer;
+}
+.navbar3 i {
+    font-size: 18px;
+    position: absolute;
+    right: 10px;
+    color: rgb(129, 127, 127);
+}
+.navbar4 {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+    margin: 15px 60px 5px 20px;
+}
+.lang img {
+    width: 15px;
+    height: 15px;
+}
+.navbar p {
+    display: inline;
+}
+.section1 {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    background-image: url(Images/SUMMERS.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.section2part1 {
+    background-color: rgb(13, 134, 13);
+    width:89%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px 10px 0 20px;
+    font-size: 14px;
+    border-radius: 10px;
+    margin: 30px 60px 0 70px;
+}
+.section2 p {
+    display: inline;
+}
+.section2-2 {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
+}
+.section2part2 {
+    height: 30px;
+    width: 89%;
+    display: flex;
+    justify-content: space-between;
+    color: rgb(13, 134, 13);
+    border: 1px solid rgb(13, 134, 13) ;
+    margin: 0 60px 30px 70px;
+    font-size: 14px;
+    padding: 10px 10px 0 20px;
+    border-radius: 10px; 
+}
+.section3 {
+    display: flex;
+    justify-content:center;
+    width: 91%;
+    height: 50px;
+    background-color: rgb(236, 163, 5);
+    margin: 30px 60px 0 70px;
+   color: white;
+}
+.lightining {
+    margin: 10px 10px 10px 10px;
+    font-size: 22px;
+    font-weight: 800;
+    font-style: italic;
+}
+.limited {
+    margin: 15px 10px 10px 20px;
+
+}
+.section4 {
+    width: 91%;
+    height: 220px;
+    display: flex;
+    justify-content: space-around;
+    margin: 30px 60px 0 70px;
+}
+.deal {
+    width: 14%;
+    height: 220px;
+}
+.deal img {
+    width: 95%;
+    height: 170px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.dealsprice {
+    color: rgb(236, 136, 5);
+    font-weight: 700;
+    
+}
+.dealsprice :nth-child(1) {
+    font-size: 16px;
+}
+.dealsprice :nth-child(2) {
+    font-size: 26px;
+}
+.section5 {
+    width: 91%;
+    height: 70px;
+    margin: 40px 60px 60px 70px;
+    display: flex;
+}
+.tcs {
+    width: 23%;
+    background-color: rgb(235, 10, 10);
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    padding: 8px 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.betterdelivery {
+    width: 68%;
+    color: white;
+    font-size: 28px;
+    font-weight: 700;
+    padding: 20px 30px;
+    background-color: rgb(162, 151, 224);
+}
+.betterdelivery i {
+    margin-left: 430px;
+}
+
+
+
+
+
+
+
+
+
+.section6 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    font-size: 20px;
+    font-weight: 900;
+}
+.section6 img {
+    width: 300px;
+    height: 40px;
+    margin: 0px auto auto 40px;
+}
+.fixed {
+    width: 40px;
+    height: 100px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 20px 10px 10px 10px;
+    text-align: center;
+    background-color: rgba(243, 241, 241, 0.884);
+   border-radius: 10px;
+}
+.fixed i {
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    box-shadow: +2px +2px 25px  #cfcdcd;
+}
+.section7 {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px 5px 10px 10px;
+    width: 100%; 
+    margin-bottom: 10px;
+}
+.section7category {
+    border-radius: 40px;
+    border: 1px solid rgb(207, 203, 203);
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.section7category p {
+    padding-top: 8px;
+    padding-bottom: 5px;
+}
+.recommend {
+    width: 130px;
+   padding-top: 9px;
+   border: 1px solid black;
+
+}
+.sleepwear {
+    width: 120px;
+}
+.section7category :hover {
+    box-shadow: +2px +2px 25px  #cfcdcd;
+}
+.circle {
+    width: 25px;
+    height: 20px;
+    padding-top: 5px;
+    margin-top: 10px;
+}
+.productcards {
+    width: 93%;
+    height: 350px;
+    margin-left: 50px ;
+}
+.products {
+    display: flex;
+    justify-content: space-around;
+}
+.card {
+    width: 19.5%;
+    height: 350px;
+    font-size: 13px;
+    color: rgb(99, 96, 96);
+}
+.products :hover {
+    background-color: rgba(245, 229, 229, 0.562);
+    box-shadow: +1px +1   px 25px  #cfcdcd;
+}
+.card img {
+    width: 93%;
+    height: 245px;
+    margin: 7px ;
+}
+.card p {
+    margin: 0 7px 3px 7px ;
+}
+.pricing {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 10px 3px 7px ;
+}
+.price :nth-child(1) {
+    color: black;
+}
+.price :nth-child(2) {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+.price :nth-child(3) {
+    color: rgb(99, 96, 96);
+    
+}
+.cart {
+    width: 40px;
+    height: 25px;
+    border: 1px solid black;
+    border-radius: 50px;
+    text-align: center;
+    color: black;
+}
+.cart i {
+    margin-top: 4px;
+}
+.ratings {
+    margin-left: 7px;
+}
+.ratings i {
+    color: black;
+}
+
+.seemore button {
+    height: 55px;
+    width: 250px;
+    margin: 40px 0 40px 530px;
+    border-radius: 50px;
+    border: none;
+    background-color:  rgb(236, 163, 5);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+   
+}
+.infosection {
+    background-color: rgb(41, 38, 38);
+}
+.infosection1 {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(197, 195, 195);
+    padding-top: 30px;
+}
+.infosection1 li {
+    list-style-type: none;
+    margin-top: 15px;
+    font-size: 13px;
+}
+.bold {
+    /* font-size: 22px; */
+    color: white;
+    margin-bottom: 25px;
+    font-weight: bold;
+}
+.downloadbuttons, .apple, .google {
+    display: flex;
+    justify-content: space-around;
+}
+.apple {
+    border: 1px solid rgba(109, 109, 109, 0.938);
+    margin-left: 2px;
+    margin-right: 5px;
+    border-radius: 40px;
+}
+.google {
+    border: 1px solid rgba(109, 109, 109, 0.938);
+    margin-left: 5px;
+    margin-right: 3px;
+    border-radius: 40px;
+}
+.apple i {
+    font-size: 29px;
+    color: white;
+   margin: 8px 10px 10px 16px;
+}
+.appstore p, .playstore p {
+    font-size: 13px;
+    margin: 7px 10px 4px 0;
+}
+.appstore h4, .playstore h4 {
+    color: white;
+}
+.google img {
+    width: 30px;
+    height: 30px;
+    margin: 8px 10px 10px 16px;
+}
+.connect p {
+    margin: 45px auto 15px auto;
+    padding: 15px 0 15px 10;
+    font-weight: bold;
+    color: white;
+    font-size: 13px;
+}
+.connecticons i {
+    font-size: 28px;
+    color: white;
+    margin-right: 30px;
+}
+.security-bank {
+    color: white;
+    margin: 60px;
+    display: flex;
+    justify-content: flex-start;
+    font-size: 15px;
+    font-weight: bold;
+}
+.security {
+    margin-right: 400px;
+}
+.securitycards, .bankcards {
+    display: flex;
+    width: 200px;
+}
+.securitycards img, .bankcards img {
+    width: 60px;
+    height: 23px;
+    margin: 20px 10px 10px auto;
+}
+hr {
+    color: rgb(236, 234, 234) ;
+    width: 91%;
+    margin-left: 50px;
+}
+.lastpart {
+    
+    padding: 30px;
+    text-align: center;
+    font-size: 13px;
+    color: rgb(197, 195, 195);
+}
+#noline {
+    text-decoration: none;
+}
+.lastpart span {
+    margin-right: 20px;
+    text-decoration: underline;
+}
