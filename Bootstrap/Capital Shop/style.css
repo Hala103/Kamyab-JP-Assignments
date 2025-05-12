@@ -1,0 +1,31 @@
+.sub-banner {
+    width: 350px;
+}
+
+.sub-banner2 {
+    width: 260px;
+}
+.bg-color-part6 {
+    background-color: #F6F6F6;
+}
+.color {
+    color: #8D8B7D;
+}
+.color-curling {
+    color: #FF2020;
+}
+.bg-color-part8 {
+    background-color: #171613;
+}
+.hr-color {
+    color: rgb(160, 159, 159);
+}
+.font-size   {
+    font-size: 14px;
+}
+.border-color {
+    border-right: 1px solid rgb(236, 235, 235);
+}
+.icon-color {
+    color: gray;
+}
