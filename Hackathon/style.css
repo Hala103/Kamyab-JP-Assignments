@@ -2,24 +2,18 @@
     width: 650px;
     height: 600px;
 }
-.font-size-part1, .font-size-part2{
-    font-size: 14px;
+.font-size {
+    font-size: 13px;
 }
-/* .part-1-section2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 70px;
-} */
+.bg_color_part1 {
+   background-color: #F8F9FA;
+}
  .part2-img {
     width: 80px;
     height: 80px;
  }
 
- .part3-img {
-    width: 375px;
-    height: 280px;
- }
+ 
  .part4-img {
     width: 60px;
     height: 50px;
@@ -34,4 +28,23 @@
  .part5-img {
     width: 650px;
     height: 500px;
+ }
+ .part5-img2 {
+       width: 60px;
+    height: 50px;
+
+ }
+
+ .footer_icons i {
+   width: 40px;
+   height: 40px;
+   background-color: rgba(240, 237, 237, 0.808);
+
+ }
+
+ .hr-color {
+   color: gray;
+ }
+ .navigation1  li {
+   list-style-type: none;
  }
