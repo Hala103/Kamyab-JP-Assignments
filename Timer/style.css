@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgb(238, 238, 221);
+    font-size: 24px;
+}
+h1 {
+    color: green;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.Timer {
+ 
+  width: 40%;
+  height: 40%;
+  margin: 70px auto;
+  
+}
+.timeupdate {
+    
+    height: 50px;
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    
+}
+.buttons{
+    text-align: center;
+}
+.buttons button {
+    border-radius: 40px;
+    width: 90px;
+    height: 40px;
+    font-size: 18px;
+    margin-top: 50px;
+    border: 1px solid green;
+    transition: transform .2s;
+    
+}
+#dms {
+    display: none;
+}
+button:hover {
+    background-color: white;
+    transform: scale(1.05);
+    color: rgb(2, 75, 2);
+}
