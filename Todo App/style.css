@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 70%;
+   background-color: rgb(201, 190, 204);
+    border: 2px solid rgb(196, 190, 190);
+    margin: auto;
+    text-align: center;
+}
+h1 {
+    margin: 30px auto;
+    font-size: 40px;
+}
+#input {
+    width: 75%;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+}
+.add {
+    width: 110px;
+    font-size: 20px;
+    height: 50px;
+    margin-left: 10px;
+    background-color: rgb(250, 249, 249);
+     border: 1px solid rgb(122, 122, 122);
+}
+.clear {
+     width: 90%;
+    height: 50px;
+    font-size: 22px;
+    margin: 20px auto;
+    background-color: rgb(250, 249, 249);
+     border: 1px solid rgb(122, 122, 122);
+}
+.tasklist {
+    width: 90%;
+    
+    font-size: 26px;
+    text-align: left;
+    margin-left: 50px;
+    
+}
+.tasklist li {
+    border: 1px solid rgb(122, 122, 122);
+    margin-top: 20px;
+    height: 35px;
+    width: 100%;
+     list-style-type: none;
+     background-color: rgb(250, 249, 249);
+}
+.ebutton {
+    width: 10%;
+    height: 35px;
+    font-size: 18px;
+   float: right;
+   background-color: rgb(250, 249, 249);
+    border: 1px solid rgb(122, 122, 122);
+}
+.dbutton {
+    width: 10%;
+    height: 35px;
+    font-size: 18px;
+    float: right;
+    margin-right: 15px;
+    background-color: rgb(250, 249, 249);
+     border: 1px solid rgb(122, 122, 122);
+}
